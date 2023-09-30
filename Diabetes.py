@@ -6,7 +6,7 @@ from sklearn.svm import SVC
 import pickle
 
 # Load your data
-df = pd.read_excel('Data.xlsx')
+df = pd.read_excel('data1.xlsx')
 
 # Prepare your data
 X = df[['Pregnancies', 'Glucose', 'BloodPressure','SkinThickness','Insulin','BMI','DiabetesPedigreeFunction','Age']].values
